@@ -56,7 +56,7 @@ INSERT INTO livro (titulo, cor_capa, preco, quantidade, id_autor, id_biblioteca)
 ('Dom Casmurro', '#8b0000', 45.00, 12, 1, 1),
 ('Memórias Póstumas de Brás Cubas', '#2f4f4f', 52.50, 8, 1, 1),
 ('A Hora da Estrela', '#d97706', 38.90, 5, 2, 1),
-('1984', '#1e3a8a', 49.90, 15, 3, 1),
+('1984', '#1e3a8a', 49.90, 0, 3, 1),
 ('O Senhor dos Anéis', '#065f46', 89.90, 4, 4, 2),
 ('A Revolução dos Bichos', '#7c2d12', 34.00, 20, 3, 2);
 -- 4. Criação do TRIGGER (dispara se o preço OU a quantidade mudarem)
