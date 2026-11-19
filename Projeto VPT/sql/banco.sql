@@ -44,14 +44,14 @@ INSERT INTO biblioteca (id, nome, endereco) VALUES
 (1, 'Biblioteca Central', 'Av. Principal, 100'),
 (2, 'Biblioteca Comunitária Norte', 'Rua das Flores, 45');
 
--- Insere os autores garantindo os IDs 1, 2, 3 e 4
+-- Insere os autores
 INSERT INTO autor (id, nome, nacionalidade) VALUES 
 (1, 'Machado de Assis', 'Brasileira'),
 (2, 'Clarice Lispector', 'Brasileira'),
 (3, 'George Orwell', 'Britânica'),
 (4, 'J.R.R. Tolkien', 'Britânica');
 
--- Agora os IDs 1, 2, 3 e 4 existem com certeza!
+-- Insere livros
 INSERT INTO livro (titulo, cor_capa, preco, quantidade, id_autor, id_biblioteca) VALUES 
 ('Dom Casmurro', '#8b0000', 45.00, 12, 1, 1),
 ('Memórias Póstumas de Brás Cubas', '#2f4f4f', 52.50, 8, 1, 1),
